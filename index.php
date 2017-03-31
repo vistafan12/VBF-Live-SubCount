@@ -32,7 +32,7 @@ table{
     background-color:#805199;
 }</style>
 </body>
-<h1 class="header">VidBitFuture Live Subscriber Count</h1>
+<h1 class="header">VBF Live Subscriber Count</h1>
 <?php
 $channelname = $_GET['username'];
 $channelidjson = file_get_contents('https://api.vidbitfuture.co/user_to_id.php?username='.$channelname);
