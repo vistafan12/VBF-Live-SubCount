@@ -1,5 +1,5 @@
 # VBF Live Sub Counter
-## A live subcount built for VidBitFuture by @geekyweirdguy, AM, and Blake (Eighty8.)
+## A live subcount built for VidBitFuture by geekyTV, AM, and Blake.
 
 ### So... what does it do?
 It gives a live check on how many subscribers a user has. Duh.
