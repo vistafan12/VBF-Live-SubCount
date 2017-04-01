@@ -6,17 +6,17 @@
     <style>
 body{
     height: 740px;
-    background: #b65568;
-    background: -webkit-linear-gradient(#b65568, #805199);
-    background: -o-linear-gradient(#b65568, #805199);
-    background: -moz-linear-gradient(#b65568, #805199);
-    background: linear-gradient(#b65568, #805199);
     font-family: 'Roboto', sans-serif;
-    color:white;
+background: #b52424; /* Old browsers */
+background: -moz-linear-gradient(left, #b52424 0%, #82181a 50%, #891617 51%, #1c0f0f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #b52424 0%,#82181a 50%,#891617 51%,#1c0f0f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #b52424 0%,#82181a 50%,#891617 51%,#1c0f0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b52424', endColorstr='#1c0f0f',GradientType=1 ); /* IE6-9 */
 }
 h1.header{
     font-size: 80px;
     text-align: center;
+	color: white
 }
 h2.header{
     font-size: 40px;
