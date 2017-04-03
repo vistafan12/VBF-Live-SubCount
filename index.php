@@ -21,15 +21,18 @@ h1.header{
 h2.header{
     font-size: 40px;
     text-align: center;
+	color: white
 }
 p.header{
     font-size: 20px;
     text-align: center;
+	color: white
 }
 table{
     border-radius: 5.1px;
     line-height:1px;
     background-color:#805199;
+	
 }</style>
 </body>
 <h1 class="header">VBF Live Subscriber Count</h1>
