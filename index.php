@@ -34,7 +34,11 @@ table{
 </body>
 <h1 class="header">VBF Live Subscriber Count</h1>
 <?php
+if(isset($_GET['username'])){
 $channelname = $_GET['username'];
+}else{
+$channelname = "VBF";
+}
 $channelidjson = file_get_contents('https://api.vidbitfuture.co/user_to_id.php?username='.$channelname);
 $channelid = json_decode($channelidjson,true);
 $userinfojson = file_get_contents('https://api.vidbitfuture.co/userinfo.php?id='.$channelid['id']);
